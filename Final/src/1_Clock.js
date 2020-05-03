@@ -1,6 +1,3 @@
-// <⚠️ DONT DELETE THIS ⚠️>
-//import "./styles.css";
-// <⚠️ /DONT DELETE THIS ⚠️>
 
 /*
 1) Clock.

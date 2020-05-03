@@ -1,6 +1,3 @@
-// <⚠️ DONT DELETE THIS ⚠️>
-//import "./styles.css";
-// <⚠️ /DONT DELETE THIS ⚠️>
 
 /*
 Clock.
@@ -9,11 +6,7 @@ To Do List.
 Random Background Image.
 Weather with Geolocation. 
 */
-/*
-const toDoForm=document.querySelector(".ToDoFormZone"),
-    toDoInput=toDoForm.querySelector("input"),
-    List=document.querySelector(".js-List");
-*/
+
 const toDoForm = document.querySelector(".ToDoFormZone"),
     toDoInput=toDoForm.querySelector("input"),
     List=document.querySelector(".toDoList");
@@ -30,6 +23,9 @@ function reset(event){
  } 
   toDos=[];
   console.log(toDos);
+  if(toDos.length===0){
+    resetAllBtn.style.display="none";
+  }
   saveToDos();
 }
 
