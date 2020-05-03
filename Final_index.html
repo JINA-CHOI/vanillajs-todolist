@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="src/Final_styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Song+Myung&display=swap" rel="stylesheet">
+    <title>final project</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="left">
+    <!--시계-->
+    <div class="clockZone">
+      <h1 class="clock">00:00</h1>
+    </div>
+    <!--지리적 위치와 날씨-->
+     <span class="WeatherZone"></span>
+     <br>
+     <!--사용자 이름-->
+     <form class="InputNameFormZone form">
+       <input type="text" placeholder="what's your name?"/>
+      </form>
+    <h4 class="OutputNameZoneZone output"></h4>
+    <button class="resetName" onclick="deleteName()">Reset Name</button>
+    <button class="resetList" onclick="reset()">Reset List</button>
+   </div>
+
+   <div class="right">
+     <!--할일목록-->
+     <h2>To Do List</h2>
+     <form class="ToDoFormZone">
+       <input type="text" placeholder=" Add today's things to do."/>
+      </form>
+      <br>
+    <div class="listZone box">
+      <ul class="toDoList"></ul>
+    </div>
+  </div>
+  
+    <script src="src/1_Clock.js"></script>
+    <script src="src/2_Username.js"></script>
+    <script src="src/3_ToDoList.js"></script>
+    <script src="src/4_RandomBackgroundImage.js"></script>
+    <script src="src/5_WeatherwithGeolocation.js"></script>
+  </body>
+</html>
