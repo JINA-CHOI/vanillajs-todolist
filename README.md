@@ -1,7 +1,8 @@
 # VanillaJS
 Todo list Project using Vanilla JavaScript
 
-![image](https://user-images.githubusercontent.com/54574730/108168262-5bf8b580-713a-11eb-9dc7-7d3eb3bcc377.png)
+![image](https://user-images.githubusercontent.com/54574730/108169311-e1309a00-713b-11eb-917e-c49471909c9e.png)
+
 
 https://jina-choi.github.io/VanillaJS/Final/Final_index.html
 
