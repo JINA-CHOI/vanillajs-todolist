@@ -11,10 +11,12 @@ https://jina-choi.github.io/VanillaJS/Final/Final_index.html
 <br/>
 
 # 🛠 사용기술
-- HTML5
-- CSS3
-- JavaScript
+- Vanilla JavaScript
 - OpenWeather API
+- Layout
+- Hover Effect
+- LocalStorage
+- addEventListener
 
 
 <br/>
