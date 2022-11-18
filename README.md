@@ -5,7 +5,7 @@ Todo list Project using Vanilla JavaScript
 <br/>
 
 # 👩🏻‍💻구현
-https://jina-choi.github.io/VanillaJS/Final/Final_index.html
+https://jina-choi.github.io/vanillajs-todolist/Final/Final_index.html
 
 <br/>
 <br/>
